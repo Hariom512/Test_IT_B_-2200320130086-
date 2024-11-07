@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="FSD1.css">
+</head>
+<body>
+    <header>
+        <h1 id="A">Online Quiz</h1>
+    </header>
+        <div id="question-container" class="question-container">
+            <p id="question"></p>
+            <div id="options"></div>
+        </div>
+        <div class="navigation">
+            <button id="prev-btn" onclick="prevQuestion()">Previous</button>
+            <button id="next-btn" onclick="nextQuestion()">Next</button>
+            <button id="submit-btn" onclick="submitQuiz()">Submit</button>
+        </div>
+        <div id="score-container" class="score-container" style="display: none;">
+            <h2>Your Score: <span id="score"></span>%</h2>
+        </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
